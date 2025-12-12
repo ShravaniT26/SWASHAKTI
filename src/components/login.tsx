@@ -158,7 +158,7 @@ export function Login({ onLogin }: LoginProps) {
               className="w-full bg-white border-2 border-[#E8E0F5] text-[#333333] py-5 rounded-[25px] shadow-md active:scale-95 transition-transform flex items-center justify-center gap-3"
             >
               <Fingerprint className="w-6 h-6 text-[#9B88C9]" />
-              <span>Use Fingerprint</span>
+              <span>Use Fingerprint for logging</span>
             </button>
 
             {/* Quick Login Profiles */}
