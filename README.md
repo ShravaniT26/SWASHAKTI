@@ -3,7 +3,7 @@
 AI-Powered Quality Check Application for Biodegradable Sanitary Pads
 🟣 Overview
 
-SWASHAKTI qc App is a mobile application designed to support women-led micro-enterprises in producing safe, hygienic, and BIS-standard (IS 5405:2019) compliant sanitary pads using AI-based visual inspection.
+SWASHAKTI App is a mobile application designed to support women-led micro-enterprises in producing safe, hygienic, and BIS-standard (IS 5405:2019) compliant sanitary pads using AI-based visual inspection.
 
 The app empowers women producers with simple, intuitive technology to ensure consistent quality without requiring technical expertise—enabling scalable, community-driven menstrual health solutions.
 
