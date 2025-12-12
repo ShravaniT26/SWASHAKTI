@@ -184,7 +184,7 @@ export function Login({ onLogin }: LoginProps) {
                   <p className="text-xs text-[#333333] truncate">Meera</p>
                 </button>
                 <button 
-                  onClick={() => onLogin('Anjali Verma')}
+                  onClick={() => onLogin('Anjali Kumar')}
                   className="bg-[#F5F3FA] rounded-[18px] p-3 text-center active:scale-95 transition-transform"
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-[#FFB300] to-[#FF9800] rounded-full mx-auto mb-2 flex items-center justify-center text-white text-lg">
