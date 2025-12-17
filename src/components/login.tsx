@@ -227,7 +227,7 @@ export function Login({ onLogin }: LoginProps) {
 
             <h3 className="text-[#333333] mb-2">Scanning Fingerprint...</h3>
             <p className="text-[#666666] text-sm mb-8 text-center">
-              Place your finger on the sensor
+              Place your finger on the sensor for log in
             </p>
 
             <div className="flex gap-2">
