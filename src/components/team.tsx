@@ -33,7 +33,7 @@ export function Team({ onNavigate }: TeamProps) {
       batchesCompleted: 145,
       passRate: 92,
       rating: 4.8,
-      joinDate: 'Jan 2024',
+      joinDate: 'Feb 2024',
       status: 'active',
       avatar: '#C7B8EA'
     },
