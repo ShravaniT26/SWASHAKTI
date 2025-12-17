@@ -248,7 +248,7 @@ export function Login({ onLogin }: LoginProps) {
         {/* Footer */}
         <div className="mt-auto pt-8 text-center">
           <p className="text-[#999999] text-xs">
-            Deccan JM road,Pune
+            Sadashiv peth,Pune
           </p>
           <p className="text-[#999999] text-xs mt-1">
             Empowering Women • Ensuring Quality
