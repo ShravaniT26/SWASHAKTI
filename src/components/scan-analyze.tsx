@@ -92,7 +92,7 @@ export function ScanAnalyze({ onNavigate, onScanComplete }: ScanAnalyzeProps) {
           </div>
           <div>
             <p className="text-white text-sm mb-1">Scanning Instructions</p>
-            <p className="text-white/80 text-xs">Place pad on grid sheet. Ensure proper lighting. Align within the outline and tap scan button.</p>
+            <p className="text-white/80 text-xs">Place pad on grid sheet. Align within the outline and tap scan button.</p>
           </div>
         </div>
       </div>
