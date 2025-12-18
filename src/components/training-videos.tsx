@@ -89,16 +89,7 @@ export function TrainingVideos({ onNavigate }: TrainingVideosProps) {
       difficulty: 'Advanced',
       views: 92
     },
-    {
-      id: 8,
-      title: 'Safety & Hygiene Practices',
-      duration: '9:00',
-      completed: false,
-      thumbnail: '#C7B8EA',
-      language: 'Hindi',
-      difficulty: 'Beginner',
-      views: 201
-    }
+
   ];
 
   const completedCount = videos.filter(v => v.completed).length;
