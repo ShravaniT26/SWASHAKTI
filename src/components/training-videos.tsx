@@ -92,7 +92,7 @@ export function TrainingVideos({ onNavigate }: TrainingVideosProps) {
     {
       id: 8,
       title: 'Safety & Hygiene Practices',
-      duration: '9:15',
+      duration: '9:00',
       completed: false,
       thumbnail: '#C7B8EA',
       language: 'Hindi',
