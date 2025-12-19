@@ -196,54 +196,7 @@ export function Login({ onLogin }: LoginProps) {
             </div>
           </>
         ) : (
-          /* Fingerprint Scanning */
-          <div className="flex flex-col items-center justify-center py-12">
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: 'spring', duration: 0.6 }}
-              className="relative mb-8"
-            >
-              <motion.div
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ repeat: Infinity, duration: 2 }}
-                className="w-32 h-32 bg-gradient-to-br from-[#9B88C9] to-[#C7B8EA] rounded-full flex items-center justify-center shadow-2xl"
-              >
-                <Fingerprint className="w-16 h-16 text-white" />
-              </motion.div>
-              
-              {/* Scanning Animation Rings */}
-              <motion.div
-                animate={{ scale: [1, 1.5], opacity: [0.5, 0] }}
-                transition={{ repeat: Infinity, duration: 2 }}
-                className="absolute inset-0 border-4 border-[#9B88C9] rounded-full"
-              ></motion.div>
-              <motion.div
-                animate={{ scale: [1, 1.5], opacity: [0.5, 0] }}
-                transition={{ repeat: Infinity, duration: 2, delay: 0.5 }}
-                className="absolute inset-0 border-4 border-[#9B88C9] rounded-full"
-              ></motion.div>
-            </motion.div>
 
-            <h3 className="text-[#333333] mb-2">Scanning Fingerprint...</h3>
-            <p className="text-[#666666] text-sm mb-8 text-center">
-              Place your finger on the sensor 
-            </p>
-
-            <div className="flex gap-2">
-              <div className="w-2 h-2 bg-[#9B88C9] rounded-full animate-pulse"></div>
-              <div className="w-2 h-2 bg-[#9B88C9] rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></div>
-              <div className="w-2 h-2 bg-[#9B88C9] rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></div>
-            </div>
-
-            <button
-              onClick={() => setIsFingerprint(false)}
-              className="mt-8 text-[#666666] text-sm"
-            >
-              Cancel
-            </button>
-          </div>
-        )}
 
         {/* Footer */}
         <div className="mt-auto pt-8 text-center">
