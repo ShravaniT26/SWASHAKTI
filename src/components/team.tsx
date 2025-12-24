@@ -93,20 +93,7 @@ export function Team({ onNavigate }: TeamProps) {
       status: 'offline',
       avatar: '#E53935'
     },
-    {
-      id: 6,
-      name: 'Geeta Singh',
-      role: 'Trainee Inspector',
-      village: 'Khandwa Village',
-      phone: '+91 98765 43215',
-      email: 'geeta.singh@swashakti.in',
-      batchesCompleted: 45,
-      passRate: 85,
-      rating: 4.2,
-      joinDate: 'Nov 2024',
-      status: 'active',
-      avatar: '#4CAF50'
-    }
+    
   ];
 
   const activeMembers = teamMembers.filter(m => m.status === 'active').length;
