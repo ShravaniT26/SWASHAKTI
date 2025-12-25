@@ -79,20 +79,7 @@ export function Team({ onNavigate }: TeamProps) {
       status: 'active',
       avatar: '#FFB300'
     },
-    {
-      id: 5,
-      name: 'Rekha Patel',
-      role: 'Quality Inspector',
-      village: 'Khandwa Village',
-      phone: '+91 98765 43214',
-      email: 'rekha.patel@swashakti.in',
-      batchesCompleted: 98,
-      passRate: 90,
-      rating: 4.6,
-      joinDate: 'Apr 2024',
-      status: 'offline',
-      avatar: '#E53935'
-    },
+    
     
   ];
 
