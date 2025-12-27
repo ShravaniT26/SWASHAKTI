@@ -54,17 +54,7 @@ export function HomeDashboard({ onNavigate, userName }: HomeDashboardProps) {
           </motion.div>
         </div>
         {userName && (
-          <motion.p 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-white/90 text-sm mb-2"
-          >
-            Welcome back, {userName}!
-          </motion.p>
-        )}
-        <p className="text-white/80 text-xs mt-2">{currentDate}</p>
-      </motion.div>
+          
 
       {/* Quick Stats Summary */}
       <div className="px-6 -mt-6 mb-4">
