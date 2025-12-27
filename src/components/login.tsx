@@ -129,7 +129,16 @@ export function Login({ onLogin }: LoginProps) {
                 </div>
               </div>
 
-             
+                        {/* Forgot Password */}
+            <div className="text-right">
+              <button
+                type="button"
+                className="text-[#4FA6A7] text-sm font-medium hover:underline transition"
+              >
+                Forgot your password?
+              </button>
+            </div>
+
 
               {/* Login Button */}
               <button
