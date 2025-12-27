@@ -91,7 +91,7 @@ export default function App() {
         <div className="absolute -right-[3px] top-[120px] w-[3px] h-[80px] bg-[#2a2a2a] rounded-r-md"></div>
         
         {/* Volume Buttons */}
-        <div className="absolute -left-[3px] top-[120px] w-[3px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
+        <div className="absolute -left-[4px] top-[120px] w-[3px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
         <div className="absolute -left-[3px] top-[190px] w-[3px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
       </div>
     </div>
