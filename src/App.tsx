@@ -20,6 +20,7 @@ export default function App() {
     setUserName(name);
     setCurrentScreen('home');
   };
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#E8E0F5] via-[#F5F3FA] to-[#E0F5F5] flex items-center justify-center p-4">
@@ -90,9 +91,11 @@ export default function App() {
         <div className="absolute -right-[3px] top-[120px] w-[3px] h-[80px] bg-[#2a2a2a] rounded-r-md"></div>
         
         {/* Volume Buttons */}
-        <div className="absolute -left-[3px] top-[120px] w-[3px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
-        <div className="absolute -left-[3px] top-[190px] w-[3px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
+        <div className="absolute -left-[4px] top-[120px] w-[4px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
+        <div className="absolute -left-[4px] top-[190px] w-[4px] h-[50px] bg-[#2a2a2a] rounded-l-md"></div>
       </div>
     </div>
   );
 }
+// screen fingerprint working...
+// volume botton 3px---4px

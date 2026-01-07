@@ -89,16 +89,7 @@ export function TrainingVideos({ onNavigate }: TrainingVideosProps) {
       difficulty: 'Advanced',
       views: 92
     },
-    {
-      id: 8,
-      title: 'Safety & Hygiene Practices',
-      duration: '9:15',
-      completed: false,
-      thumbnail: '#C7B8EA',
-      language: 'Hindi',
-      difficulty: 'Beginner',
-      views: 201
-    }
+
   ];
 
   const completedCount = videos.filter(v => v.completed).length;
@@ -125,7 +116,7 @@ export function TrainingVideos({ onNavigate }: TrainingVideosProps) {
         <div className="bg-white/15 backdrop-blur-md rounded-[25px] p-5">
           <div className="flex items-center justify-between mb-3">
             <div>
-              <p className="text-white/90 text-sm mb-1">Your Progress</p>
+              <p className="text-white/90 text-sm mb-1">Your Progress can be seen here</p>
               <p className="text-white text-2xl">{completedCount}/{videos.length} Videos</p>
             </div>
             <div className="w-16 h-16 relative">

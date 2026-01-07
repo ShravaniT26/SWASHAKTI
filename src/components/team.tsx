@@ -33,7 +33,7 @@ export function Team({ onNavigate }: TeamProps) {
       batchesCompleted: 145,
       passRate: 92,
       rating: 4.8,
-      joinDate: 'Jan 2024',
+      joinDate: 'Feb 2024',
       status: 'active',
       avatar: '#C7B8EA'
     },
@@ -67,11 +67,11 @@ export function Team({ onNavigate }: TeamProps) {
     },
     {
       id: 4,
-      name: 'Sunita Bai',
+      name: 'Sunita Kumari',
       role: 'Quality Inspector',
       village: 'Khandwa Village',
       phone: '+91 98765 43213',
-      email: 'sunita.bai@swashakti.in',
+      email: 'sunita.kumari@swashakti.in',
       batchesCompleted: 115,
       passRate: 87,
       rating: 4.3,
@@ -79,34 +79,8 @@ export function Team({ onNavigate }: TeamProps) {
       status: 'active',
       avatar: '#FFB300'
     },
-    {
-      id: 5,
-      name: 'Rekha Patel',
-      role: 'Quality Inspector',
-      village: 'Khandwa Village',
-      phone: '+91 98765 43214',
-      email: 'rekha.patel@swashakti.in',
-      batchesCompleted: 98,
-      passRate: 90,
-      rating: 4.6,
-      joinDate: 'Apr 2024',
-      status: 'offline',
-      avatar: '#E53935'
-    },
-    {
-      id: 6,
-      name: 'Geeta Singh',
-      role: 'Trainee Inspector',
-      village: 'Khandwa Village',
-      phone: '+91 98765 43215',
-      email: 'geeta.singh@swashakti.in',
-      batchesCompleted: 45,
-      passRate: 85,
-      rating: 4.2,
-      joinDate: 'Nov 2024',
-      status: 'active',
-      avatar: '#4CAF50'
-    }
+    
+    
   ];
 
   const activeMembers = teamMembers.filter(m => m.status === 'active').length;

@@ -15,7 +15,7 @@ export function Analytics({ onNavigate }: AnalyticsProps) {
     { day: 'Thu', passed: 302, failed: 18, total: 320 },
     { day: 'Fri', passed: 290, failed: 30, total: 320 },
     { day: 'Sat', passed: 310, failed: 15, total: 325 },
-    { day: 'Sun', passed: 288, failed: 27, total: 315 }
+    { day: 'Sun', passed: 288, failed: 27, total: 335 }
   ];
 
   const defectTypes = [

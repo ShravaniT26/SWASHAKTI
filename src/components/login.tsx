@@ -129,12 +129,16 @@ export function Login({ onLogin }: LoginProps) {
                 </div>
               </div>
 
-              {/* Forgot Password */}
-              <div className="text-right">
-                <button type="button" className="text-[#4FA6A7] text-sm">
-                  Forgot Password?
-                </button>
-              </div>
+                        {/* Forgot Password */}
+            <div className="text-right">
+              <button
+                type="button"
+                className="text-[#4FA6A7] text-sm font-medium hover:underline transition"
+              >
+                Forgot your password?
+              </button>
+            </div>
+
 
               {/* Login Button */}
               <button
@@ -158,7 +162,7 @@ export function Login({ onLogin }: LoginProps) {
               className="w-full bg-white border-2 border-[#E8E0F5] text-[#333333] py-5 rounded-[25px] shadow-md active:scale-95 transition-transform flex items-center justify-center gap-3"
             >
               <Fingerprint className="w-6 h-6 text-[#9B88C9]" />
-              <span>Use Fingerprint for logging</span>
+              <span>Use Fingerprint</span>
             </button>
 
             {/* Quick Login Profiles */}
@@ -227,7 +231,7 @@ export function Login({ onLogin }: LoginProps) {
 
             <h3 className="text-[#333333] mb-2">Scanning Fingerprint...</h3>
             <p className="text-[#666666] text-sm mb-8 text-center">
-              Place your finger on the sensor
+              Place your finger on the sensor 
             </p>
 
             <div className="flex gap-2">
@@ -248,7 +252,7 @@ export function Login({ onLogin }: LoginProps) {
         {/* Footer */}
         <div className="mt-auto pt-8 text-center">
           <p className="text-[#999999] text-xs">
-            Khandwa Village, Madhya Pradesh
+            Sadashiv peth,Pune
           </p>
           <p className="text-[#999999] text-xs mt-1">
             Empowering Women • Ensuring Quality
@@ -258,3 +262,4 @@ export function Login({ onLogin }: LoginProps) {
     </div>
   );
 }
+// ensure the location verify
