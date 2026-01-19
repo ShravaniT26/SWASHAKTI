@@ -1,221 +1,171 @@
-
-  # 📱 SWASHAKTI  App
+# SWASHAKTI App
 AI-Powered Quality Check Application for Biodegradable Sanitary Pads
-🟣 Overview
 
-SWASHAKTI App is a mobile application designed to support women-led micro-enterprises in producing safe, hygienic, and BIS-standard (IS 5405:2019) compliant sanitary pads using AI-based visual inspection.
+---
 
-The app empowers women producers with simple, intuitive technology to ensure consistent quality without requiring technical expertise—enabling scalable, community-driven menstrual health solutions.
+## Overview
 
-🎯 Problem Statement
+**SWASHAKTI** is a mobile application designed to support women-led micro-enterprises in producing safe, hygienic, and **BIS-compliant sanitary pads (IS 5405:2019)** using AI-based visual inspection.
 
-In decentralized sanitary pad production units:
+The application enables women producers to maintain consistent quality through simple, intuitive technology without requiring technical expertise. By digitizing quality assurance, SWASHAKTI supports scalable, community-driven menstrual health solutions.
 
-Quality varies across batches
+---
 
-Manual inspection is inconsistent
+## Problem Statement
 
-BIS compliance is hard to maintain
+Decentralized sanitary pad production units face multiple quality and scalability challenges:
 
-Producers lack technical QA tools
+- Inconsistent quality across batches  
+- Subjective and error-prone manual inspection  
+- Difficulty in maintaining BIS compliance  
+- Lack of accessible quality assurance tools  
 
-This results in reduced trust, health risks, and poor scalability.
+These issues reduce consumer trust, increase health risks, and limit large-scale adoption.
 
-✅ Solution
+---
 
-The SWASHAKTI QC App uses computer vision (AI) to:
+## Solution
 
-Scan pads using a smartphone camera
+The **SWASHAKTI QC App** uses computer vision and AI to provide standardized, real-time quality inspection using a smartphone camera.
 
-Detect defects and inconsistencies
+The application enables producers to:
+- Scan sanitary pads visually
+- Detect defects and inconsistencies
+- Generate instant quality scores
+- Receive corrective action guidance
+- Maintain digital batch and production records
 
-Generate instant quality scores
+---
 
-Provide actionable fix suggestions
+## Key Features
 
-Maintain digital batch records
+### 1. AI-Based Pad Scanning
+- Camera-based inspection using a smartphone
+- Detects:
+  - Size mismatch  
+  - Edge sealing defects  
+  - Layer misalignment  
+  - Contamination or stains  
+  - Shape and symmetry errors  
 
-This ensures standardized, safe, and reliable pads at scale.
+### 2. Quality Score System
+- Score range: 0–100  
+- Status indicators:
+  - Green: Passed  
+  - Yellow: Minor issues  
+  - Red: Failed  
 
-🧩 Key Features
-🔍 1. AI-Based Pad Scanning
+### 3. BIS Compliance Support
+Quality checks aligned with **BIS IS 5405:2019**, including:
+- Pad dimensions  
+- Surface cleanliness  
+- Absorbent core consistency  
+- Batch-level absorbency records  
+- Packaging and labeling verification  
 
-Camera-based inspection
+### 4. Guided Fix Suggestions
+Clear and actionable feedback, such as:
+- Reseal the left edge for 3 seconds  
+- Trim excess fiber from the top layer  
+- Discard pad due to contamination  
 
-Detects:
+### 5. Batch and Production Logs
+- Daily production tracking  
+- Pass/fail statistics  
+- Error pattern insights  
+- Exportable reports for NGOs and CSR programs  
 
-Size mismatch
+### 6. Training Mode
+- Short instructional videos  
+- Step-by-step guidance for:
+  - Pad placement  
+  - Sealing process  
+  - Packaging standards  
+- Designed for low-literacy users  
 
-Edge sealing issues
+### 7. Offline-First Design
+- Fully functional without internet access  
+- Automatic data synchronization when online  
+- Suitable for rural and low-connectivity environments  
 
-Layer misalignment
+---
 
-Contamination or stains
+## App Screens (Prototype)
 
-Shape and symmetry errors
+### Home Dashboard
+- Daily production overview  
+- QC passed and pending counts  
+- Start Quality Check option  
 
-📊 2. Quality Score System
+### Scan Screen
+- Camera view with pad alignment guide  
+- Real-time analysis indicators  
+- Progress visualization  
 
-Score range: 0–100
+### Result Screen
+- Quality score display  
+- Issue summary  
+- Approve or Rework actions  
 
-Indicators:
+---
 
-🟢 Green — Passed
+## Target Users
 
-🟡 Yellow — Minor issue
+- Women Self-Help Groups (SHGs)  
+- Rural and semi-urban sanitary pad micro-enterprises  
+- NGOs and CSR-funded hygiene programs  
+- Community health workers (ASHA and Anganwadi)  
 
-🔴 Red — Failed
+---
 
-📏 3. BIS Compliance Support
+## Technology Stack (Proposed)
 
-Aligned with BIS IS 5405:2019 checks:
+- **Frontend:** React Native or Flutter  
+- **AI / Computer Vision:** On-device lightweight model (TensorFlow Lite – planned)  
+- **Backend:** Firebase or Node.js  
+- **Database:** Cloud-based batch tracking  
 
-Pad dimensions
 
-Surface cleanliness
+> Note: The current version is a design prototype developed for validation, pitching, and pilot planning.
 
-Absorbent core consistency
+---
 
-Batch absorbency records
+## Social and Environmental Impact
 
-Packaging label verification
+- Improves menstrual hygiene safety  
+- Reduces infections, rashes, and leakage  
+- Enables women-led livelihoods  
+- Promotes biodegradable materials  
+- Reduces plastic waste  
 
-🛠 4. Guided Fix Suggestions
+---
 
-Simple corrective feedback, for example:
+## Scalability
 
-“Reseal the left edge for 3 seconds”
+- Deployable across decentralized production units  
+- Extendable to:
+  - Sanitary pads  
+  - Panty liners  
+  - Adult diapers (future scope)  
+- Centralized monitoring via analytics dashboard  
 
-“Trim excess fiber from the top layer”
+---
 
-“Discard pad due to contamination”
+## Future Enhancements
 
-📁 5. Batch & Production Logs
+- Advanced defect classification  
+- Voice guidance in regional languages  
+- QR-based batch traceability  
+- Automated government compliance reporting  
+- Marketplace and supply-chain integration  
 
-Daily production tracking
+---
 
-Pass/Fail counts
 
-Error pattern insights
 
-Exportable reports for NGOs/CSR
+## License
 
-🎓 6. Training Mode
+This project is currently under development.  
+License details will be added in future releases.
 
-Short video tutorials
 
-Step-by-step guidance for:
-
-Pad placement
-
-Sealing process
-
-Packaging standards
-
-Designed for low-literacy users
-
-📡 7. Offline-First Design
-
-Works without internet
-
-Auto-sync when online
-
-Ideal for rural/low-connectivity areas
-
-🖥 App Screens (Prototype)
-
-Home Dashboard
-
-Today’s production
-
-QC passed / pending
-
-Start Quality Check button
-
-Scan Screen
-
-Camera view with pad outline
-
-Live analysis indicators
-
-Progress animation
-
-Result Screen
-
-Quality score
-
-Issue summary
-
-Approve / Rework actions
-
-👩‍👩‍👧 Target Users
-
-Women Self-Help Groups (SHGs)
-
-Rural and semi-urban micro-enterprises
-
-NGOs and CSR-funded hygiene programs
-
-Community health workers (ASHA/Anganwadi)
-
-🛠 Tech Stack (Proposed)
-
-Frontend: React Native / Flutter (UI prototyped in Figma)
-
-AI / CV: Lightweight on-device model (TensorFlow Lite – future)
-
-Backend: Firebase / Node.js (logs & analytics)
-
-Database: Cloud-based batch tracking
-
-Design: Figma
-
-Note: Current version is a design prototype created for validation, pitching, and pilot planning.
-
-🌱 Social & Environmental Impact
-
-Improves menstrual hygiene safety
-
-Reduces rashes, infections, and leakage
-
-Enables women-led livelihoods
-
-Promotes biodegradable materials
-
-Reduces plastic waste from sanitary pads
-
-📈 Scalability
-
-Deployable across hundreds of micro-units
-
-Same QC logic applicable to:
-
-Sanitary pads
-
-Panty liners
-
-Adult diapers (future)
-
-Central dashboard enables large-scale monitoring
-
-🚀 Future Enhancements
-
-Advanced defect classification
-
-Voice guidance in local languages
-
-QR-based batch traceability
-
-Government compliance reporting
-
-Marketplace integration
-
-🤝 Contributors
-
-SWASHAKTI Team
-A social-innovation initiative focused on women empowerment, health, and sustainability.
-
-📜 License
-
-Developed for social impact and educational purposes.
-Commercial deployment will comply with applicable BIS and health regulations.
